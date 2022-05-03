@@ -1,0 +1,56 @@
+html, body{
+    margin: 0 auto;
+}
+header{
+    background: rgb(148, 88, 88);
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+.container{
+    padding: 10px;
+}
+p{
+    font-size: 110%;
+}
+#div-menu{
+    position: fixed;
+    top: 0;
+}
+.toggle-menu{
+    color: darkorange;
+    position: fixed;
+    background-color: brown;
+    top: 0;
+    padding: 10px;
+    border-radius: 5px;
+    user-select: none;
+    transition: .5s;
+}
+.toggle-menu:hover{
+    background-color: rgb(95, 7, 7);
+}
+.toggle-menu:active{
+    background-color: rgb(53, 4, 4);
+}
+.menu{
+    background: rgba(0, 0, 0, .5);
+    padding: 0;
+    width: 0px;
+    transition: .2s;
+    
+    
+}
+.menu a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 5px;
+    color: white;
+    width: 70px;
+    transition: .5s;
+
+}
+.menu a:hover{
+    text-decoration: underline;
+    background: rgba(0, 0, 0, .7);
+}
